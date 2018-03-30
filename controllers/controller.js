@@ -65,7 +65,7 @@ router.post("/api/delete/:articleMongoId", function(req, res) {
 });
 
 
-// redirect user to the "/" route for any unknown cases
+// redirect user to the "/" route for any unknown
 router.get("*", function(req, res) {
   res.redirect("/");
 });
